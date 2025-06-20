@@ -106,7 +106,7 @@ button.espe2 {
 }
 
 .cursor {
-  position: relative;
+  position: absolute;
   left: 96%;
   margin: 1px;
   top: 132px;
