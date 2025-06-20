@@ -28,6 +28,10 @@ body{
 h1 {
   color: #ffffff;
 }
+.display {
+  display: none;
+}
+
 
 #calculadora {
   background-color: #0D0F14;
@@ -35,11 +39,24 @@ h1 {
   height: 100%;
 }
 
+/*Área de resultado*/
+
 div#resultado {
   height: 35%;
-  
-  
 }
+
+p {
+  position: relative;
+  float: right;
+  margin: 7px;
+  top: 132px;
+  font-size: 2.4em;
+  font-weight: 600;
+  right: 1%;
+}
+
+
+/* Área dos Botões*/
 
 .tabela {
   height: 65%;
@@ -65,15 +82,6 @@ td {
 
 
 
-p {
-  position: relative;
-  float: right;
-  margin: 7px;
-  top: 132px;
-  font-size: 2.4em;
-  font-weight: 600;
-  right: 1%;
-}
 
 
 button.bot {
@@ -90,10 +98,13 @@ button.bot:hover {
 
 }
 
-
 button.espe {
   width: 100%;
   height: 100%;
+}
+
+.bold {
+  font-weight: 700;
 }
 
 
@@ -101,9 +112,8 @@ button.espe2 {
   height: 100%;
 }
 
-.display {
-  display: none;
-}
+
+/* cursor de texto*/
 
 .cursor {
   position: absolute;
