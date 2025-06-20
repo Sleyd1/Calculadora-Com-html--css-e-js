@@ -1,0 +1,40 @@
+body{
+  background-image: linear-gradient(45deg,#c80909,#000000) ; 
+  
+}
+h1 {
+  color: #ffffff;
+}
+#calculadora {
+  margin-left: 20%;
+  background: black;
+  width: 200px;
+  height: auto;
+}
+div#resultado {
+  height: 50px;
+  background-color: #2d2d35 ;
+  border: solid 5px black;
+  color: #ffffff;
+  
+}
+p {
+  position: relative;
+  float: right;
+  margin: 5px;
+  top: 9px;
+}
+
+button.bot {
+  background-color: #2d2d35 ;
+  width: 40px;
+  height: 30px;
+  color: #ffffff;
+}
+button.espe {
+  width: 90px;
+}
+button.espe2 {
+  height: 80px;
+}
+
