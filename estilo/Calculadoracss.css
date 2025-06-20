@@ -72,6 +72,7 @@ p {
   top: 132px;
   font-size: 2.4em;
   font-weight: 600;
+  right: 1%;
 }
 
 
@@ -104,10 +105,10 @@ button.espe2 {
   display: none;
 }
 
-
+/*/340px/*/
 .cursor {
-  position: absolute;
-  left: 340px;
+  position: relative;
+  left: 96%;
   margin: 1px;
   top: 132px;
   font-size: 2.4em;
